@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
-    color: white;
 }
 body{
     background-color: #71718b;
@@ -102,9 +101,10 @@ body{
    animation-fill-mode: forwards;
 }
 
-
-
-.button .home{
+.home a{
+    color: white;
+}
+.next{
     float: right;
 }
 .button .btn{
