@@ -103,6 +103,8 @@ body{
 
 .home a{
     color: white;
+    width: 100%;
+    display: inline-block;
 }
 .next{
     float: right;
