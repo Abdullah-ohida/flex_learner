@@ -1,43 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <title>Quiz-App</title>
 </head>
-
-<body>
-    <div class="quiz-container">
-        <div class="question-number">
-            <h3>Question <span class="question-num-value"></span> of <span class="total-question"></span></h3>
-        </div>
-        <div class="question"></div>
-        <div class="options">
-            <div id="0" class="option1" onclick="check(this)"></div>
-            <div id="1" class="option2" onclick="check(this)"></div>
-            <div id="2" class="option3" onclick="check(this)"></div>
-        </div>
-        <div class="button">
-            <button type="button" class="btn" onclick="next()">Next</button>
-            <button type="button" class="btn home"> <a href="./home.html">Go Home</a> </button>
-        </div>
-        <div class="answers-tracker">
-        </div>
-    </div>
-    <div class="quiz-over">
-        <div class="box">
-            <h1>
-            Good Try! <br>
-            You got <span class="correct-answers"></span> out of <span class="total-question2"></span> answers correct! <br> That's <span class="percentage"></span>.
-            try again
-        </h1>
-        <button type="button" onclick="tryAgain()">TryAgain</button>
-    </div>
-    <h1>
-    </div>
-    <script src="script.js"></script>
+<body onload="setbackground();">
+        <div class="container">
+            <div id="home" class="flex-center flex-column">
+              <h1>Flex-Learner</h1>
+              <a class="btn" href="./game.html">Play</a>
+            </div>
+          </div>
+    <script src="main.js"></script>
 </body>
-
 </html>
