@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 2rem;
+        opacity: .8;
+        margin-bottom: .5rem;
+      }
+     .home .btn{
+        font-size: 1rem;
+        padding: .5rem;
+        width: 5rem;
+      }
+      #home .btn{
+        font-size: 1rem;
+        padding: .5rem;
+        width: 5rem;
+      }
+      .button .btn{
+        padding: 5px 20px;
+        font-size: 14px;
+      }
+
+      .question{
+        font-size: 15px;
+        padding: 13px 0;
+    }
+
+    .options div{
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .answers-tracker div{
+        height: 20px;
+        width: 20px;
+        margin-right: 4px;
+    }
+}

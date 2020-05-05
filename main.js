@@ -15,11 +15,11 @@ function setbackground()
 {
 window.setTimeout( "setbackground()", 2500); // 5000 milliseconds delay
 var index = Math.round(Math.random() * 9);
-var ColorValue = "FFFFFF"; // default color - white (index = 0)
+var ColorValue = "FFFF00"; // default color - white (index = 0)
 if(index == 1)
 ColorValue = "CAA2A2"; //peach
 if(index == 2)
-ColorValue = "C9AAFF80F"; //violet
+ColorValue = "CFF80F"; //violet
 if(index == 3)
 ColorValue = "A6BEFF"; //lt blue
 if(index == 4)
