@@ -87,7 +87,7 @@ function enableOptions() {
 
 function validate() {
     if (!options[0].classList.contains('disabled')) {
-        alert('Plese You need to select an option')
+        alert('Please You need to select an option')
     }
     else {
         randomQuestion();

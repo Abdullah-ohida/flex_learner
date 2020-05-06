@@ -36,3 +36,5 @@ if(index == 9)
 ColorValue = "CCCCCC"; //lt grey
 document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
 }
+
+window.location
